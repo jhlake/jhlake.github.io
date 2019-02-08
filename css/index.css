@@ -1,6 +1,6 @@
 body {
 	padding-top: 58px;
-	background-image: url("../seamless.png");
+	background-image: url("../img/seamless.png");
   	background-repeat: repeat;
   	color: #7a0325;
   	scroll-behavior: smooth;
@@ -199,6 +199,12 @@ body {
 	stroke: rgb(16, 36, 186);
 }
 
+.lang img{
+	height: 150px;
+	width: 250px;
+	padding-top: 10px;
+	border-radius: 25%;
+}
 
 @keyframes progress {
   0% {
