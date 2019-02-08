@@ -44,11 +44,7 @@ body {
 #introtext{
 	margin:50px auto;
 }
-#sec2{
-	margin-top: 300px;
-	margin-bottom: 300px;
-}
-#sec4{
+#sec2, #sec4, #sec6{
 	margin-top: 300px;
 	margin-bottom: 300px;
 }
@@ -212,6 +208,18 @@ body {
   }
 }
 
+#cupi2, #olympiads, #pharmaid{
+  width: 100%;
+  border-radius: 10%;
+}
+
+.projs{
+  margin-bottom: 42px;
+}
+.separator{
+  width:100%;
+}
+
 .site-footer {
   background-color: #838383;
 	text-align: center;
@@ -223,6 +231,9 @@ body {
 	text-align: center;
 }
 
+.copyright{
+  margin-left: 35px;
+}
 /*Social Media Icons*/
 .social-wrapper {
 	text-align: center;
