@@ -216,47 +216,23 @@ body {
 .projs{
   margin-bottom: 42px;
 }
-.gallery {
-  border: 1px solid #ccc;
+.travels{
+  width:100%;
 }
 
-.gallery:hover {
-  border: 1px solid #777;
+.travels2{
+  width: 80%;
 }
 
-.gallery img {
-  width: 100%;
-  height: 400px;
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
 }
 
-.desc {
-  padding: 15px;
-  text-align: center;
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
