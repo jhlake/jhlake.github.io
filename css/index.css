@@ -25,7 +25,7 @@ body {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 60px;
-  background: #d279ea;
+  background: #b20536;
   width: 0%;
 }
 .firstline{
@@ -60,18 +60,24 @@ body {
 }
 .puzzle_gif{
 	height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-.studies{
+.studies1,.studies2{
 	width: 100%;
 	margin:auto;
 	border-radius: 15%;
 }
+.studies1{
+border:solid #7a0325;}
 .ib{
 	width: auto;
 	height: 450px;
 }
 .icfes{
-	width:auto;
+  margin-left: 10%;
+	width:90%;
 	height: auto;
 }
 .gpf6{
@@ -180,7 +186,7 @@ body {
 	font-family: 'Staatliches', cursive;
 }
 .topt{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 }
 .circular-chart {
   display: block;
@@ -197,13 +203,13 @@ body {
 }
 
 .circular-chart.c-bad .circle{
-	stroke: rgb(255,72,200);
+	stroke: #b20536;
 }
 .circular-chart.c-ok .circle{
-	stroke: rgb(33, 163, 4);
+	stroke: #8c0229;
 }
 .circular-chart.c-good .circle{
-	stroke: rgb(16, 36, 186);
+	stroke: #63021e;
 }
 
 .lang img{
