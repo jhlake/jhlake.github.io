@@ -284,11 +284,7 @@ body {
 
 .twitter-icon,
 .facebook-icon,
-.instagram-icon,
-.linkedin-icon,
-.googleplus-icon,
-.youtube-icon,
-.foursquare-icon{
+.instagram-icon{
 	margin-top: .625em;
 	width: 40px;
 	height: 40px;
@@ -299,11 +295,7 @@ body {
 
 .twitter-icon:hover,
 .facebook-icon:hover,
-.instagram-icon:hover,
-.linkedin-icon:hover,
-.googleplus-icon:hover,
-.youtube-icon:hover,
-.foursquare-icon:hover {
+.instagram-icon:hover{
 	opacity: 1.0;
 	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
