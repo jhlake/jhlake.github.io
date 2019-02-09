@@ -32,6 +32,9 @@ body {
 	text-align: center;
 	font-family: 'Paytone One', sans-serif;	
 }
+.payt{
+  font-family: 'Paytone One', sans-serif; 
+}
 #heymorty{
 	display:block;
 	margin-left: auto;
@@ -44,9 +47,13 @@ body {
 #introtext{
 	margin:50px auto;
 }
-#sec2, #sec4, #sec6{
+#sec2, #sec4{
 	margin-top: 300px;
 	margin-bottom: 300px;
+}
+#sec6{
+  margin-top: 300px;
+  margin-bottom: 150px;
 }
 .mid_border{
 	border: dashed;
@@ -67,6 +74,10 @@ body {
 	width:auto;
 	height: auto;
 }
+.gpf6{
+  width: auto;
+}
+
 /*HOVERING OVER IMAGES*/
 .hovereffect {
   width: 100%;
@@ -208,7 +219,7 @@ body {
   }
 }
 
-#cupi2, #olympiads, #pharmaid{
+#cupi2, #olympiads, #pharmaid, #ths{
   width: 100%;
   border-radius: 10%;
 }
@@ -226,17 +237,24 @@ body {
 
 .zoom {
   padding: 50px;
-  transition: transform .2s; /* Animation */
+  transition: transform .6s; /* Animation */
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+.ppfe{
+  border-radius: 10%; 
+  border: solid 15px;
+  border-color: #8e8f91; 
+  background-color: #8e8f91; 
+  padding: 5px;
 }
 
 .site-footer {
